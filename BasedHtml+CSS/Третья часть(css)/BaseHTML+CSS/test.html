@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div id="rainbow">
+        <h1>Registration</h1>
+        <p><strong><a href="index.html" id="return">Return to main menu</a></strong></p>
+        <form action="" method="">
+            <!-- tr - строка th - ячейка заголовка td - ячейка -->
+            <tr>
+                <th><label for="name"><strong>Nickname</strong></label></th>
+                <th><input type="text" name="name" placeholder="enter nickname" id="name"></th>
+            </tr>
+            <br>
+            <!-- &nbsp; и &#160; пробелы в HTML -->
+            <tr>
+                <td><label for="password"><strong>Password&#160;</strong></label></td>
+                <td><input type="password" placeholder="enter password"></td>
+            </tr>
+            <h3>Description</h3>
+            <textarea name="" id="" cols="25" rows="10"></textarea>
+            <br>
+            <p><strong>Select your language</strong></p>
+            <select name="languages" id="">
+                <option value="russian">Russian</option>
+                <option value="english">English</option>
+            </select>
+            <p><strong>Select your favourite language code:</strong></p>
+            <input type="radio" name="coding" id=""> <strong>Java</strong>
+            <br>
+            <input type="checkbox" name="coding" id="" value="javascript"> <strong>JavaScript</strong>
+            <br>
+            <input type="radio" name="coding" id="" value="c++"> <strong>C++</strong>
+            <br>
+            <input type="checkbox" name="coding" id="" value="c#"> <strong>C#</strong>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <h3><a href="#return">Back to top</a></h3>
+        <div id="lng"></div>
+    </div>
+    
+</body>
+</html>
