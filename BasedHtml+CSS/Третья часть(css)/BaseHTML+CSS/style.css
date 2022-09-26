@@ -31,6 +31,7 @@
     position: absolute;
     background: linear-gradient(orange,red);
     transition: 0.5s;
+    box-shadow: 1px 1px 2px 6px skyblue;
 }
 #lng::after{
     content:"";
@@ -96,4 +97,7 @@
     50%{
         background-position: 100%,0;
     }
+}
+#shadow{
+    text-shadow: 2px 2px 3px red;
 }
